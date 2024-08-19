@@ -1,7 +1,7 @@
 library("tidyverse")
 
 # Load the dataset into a DataFrame
-trips_df <- read_csv("C:\\Users\\carlo\\Documents\\Cyclistic case study\\Cyclistic_Trips_2019_Q1.csv")
+trips_df <- read_csv("Cyclistic_Trips_2019_Q1.csv")
 
 # Get an overview of the dataset's structure
 glimpse(trips_df)

@@ -339,7 +339,7 @@ ORDER BY area, surname;
 
 -- This way, we can export the new, cleaned version of our data by creating a new .csv file
 SELECT *
-INTO OUTFILE 'C:\\Users\\carlo\\Documents\\Documentos CSV\\new_limpieza.csv'
+INTO OUTFILE 'new_limpieza.csv'
 FIELDS TERMINATED BY ','
 ENCLOSED BY '"'
 LINES TERMINATED BY '\n'
